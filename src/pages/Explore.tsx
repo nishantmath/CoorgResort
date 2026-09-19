@@ -14,6 +14,12 @@ import {
   textReveal,
   staggerContainer,
 } from '../lib/animation'
+import {
+  imgRajaSeat,
+  imgCariappaMuseum,
+  imgOmkareshwarTemple,
+  imgAbbeyFalls,
+} from '../lib/images'
 
 const serif = { fontFamily: 'Playfair Display, Georgia, serif' }
 
@@ -27,11 +33,11 @@ const places = [
     dist: '5 km',
     tagline: 'Royal Garden & Sunset Viewpoint',
     desc: "The beloved garden of the Kodagu kings, built to watch sunsets over misty green valleys. Manicured lawns, a musical fountain, and sweeping views make it Coorg's most visited landmark.",
-    img: 'https://images.unsplash.com/photo-1634874723221-7f0585c308ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxSYWphJTI3cyUyMFNlYXQlMjBNYWRpa2VyaSUyMENvb3JnJTIwZ2FyZGVuJTIwdmlld3BvaW50JTIwS2FybmF0YWthfGVufDF8fHx8MTc4OTgyNjcyNnww&ixlib=rb-4.1.0&q=80&w=1200',
+    img: imgRajaSeat,
     // Bottom-left text — light forest sky at top stays clear
     textPosition: 'bottom-left' as const,
     // Gradient serves the text corner only
-    gradient: 'linear-gradient(135deg, rgba(5,10,5,0.75) 0%, rgba(5,10,5,0.28) 42%, transparent 68%), linear-gradient(to top, rgba(5,10,5,0.5) 0%, transparent 38%)',
+    gradient: 'linear-gradient(135deg, rgba(10,16,10,0.88) 0%, rgba(10,16,10,0.38) 42%, transparent 68%), linear-gradient(to top, rgba(10,16,10,0.65) 0%, transparent 38%)',
   },
   {
     index: '02',
@@ -39,10 +45,10 @@ const places = [
     dist: '5 km',
     tagline: "Tribute to India's First Field Marshal",
     desc: "A rich collection of artefacts, photographs, and memorabilia celebrating Field Marshal K.M. Cariappa — born in Coorg and the first Commander-in-Chief of independent India's army.",
-    img: 'https://images.unsplash.com/photo-1709308519878-463dc80d5824?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxDb29yZyUyME1hZGlrZXJpJTIwS2FybmF0YWthJTIwbXVzZXVtJTIwaGVyaXRhZ2V8ZW58MXx8fHwxNzg5ODI2NzI3fDA&ixlib=rb-4.1.0&q=80&w=1200',
+    img: imgCariappaMuseum,
     // Bottom-right — alternates rhythm
     textPosition: 'bottom-right' as const,
-    gradient: 'linear-gradient(to left, rgba(5,10,5,0.72) 0%, rgba(5,10,5,0.28) 48%, transparent 72%), linear-gradient(to top, rgba(5,10,5,0.45) 0%, transparent 35%)',
+    gradient: 'linear-gradient(to left, rgba(10,16,10,0.88) 0%, rgba(10,16,10,0.38) 48%, transparent 72%), linear-gradient(to top, rgba(10,16,10,0.6) 0%, transparent 35%)',
   },
   {
     index: '03',
@@ -50,10 +56,10 @@ const places = [
     dist: '5 km',
     tagline: '19th-Century Shiva Temple',
     desc: 'Built in 1820 with a striking blend of Islamic and Gothic architecture, the temple sits over a serene water tank. One of the most atmospheric religious sites in all of Coorg.',
-    img: 'https://images.unsplash.com/photo-1708590856768-61f5a9cae9a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxDb29yZyUyME1hZGlrZXJpJTIwS2FybmF0YWthJTIwbXVzZXVtJTIwaGVyaXRhZ2V8ZW58MXx8fHwxNzg5ODI2NzI3fDA&ixlib=rb-4.1.0&q=80&w=1200',
+    img: imgOmkareshwarTemple,
     // Upper-left — shifts vertical placement for variety
     textPosition: 'top-left' as const,
-    gradient: 'linear-gradient(to bottom, rgba(5,10,5,0.72) 0%, rgba(5,10,5,0.28) 42%, transparent 65%), linear-gradient(to right, rgba(5,10,5,0.35) 0%, transparent 55%)',
+    gradient: 'linear-gradient(to bottom, rgba(10,16,10,0.88) 0%, rgba(10,16,10,0.38) 42%, transparent 65%), linear-gradient(to right, rgba(10,16,10,0.5) 0%, transparent 55%)',
   },
   {
     index: '04',
@@ -61,11 +67,11 @@ const places = [
     dist: '10 km',
     tagline: '70-Foot Waterfall in Coffee Country',
     desc: 'Hidden within a private coffee and spice plantation, Abbey Falls plunges 70 feet into a rocky gorge surrounded by lush forest. Best visited during the monsoon when the flow peaks.',
-    img: 'https://images.unsplash.com/photo-1692386140228-43f54f22124b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxBYmJleSUyMEZhbGxzJTIwQ29vcmclMjBLYXJuYXRha2ElMjB3YXRlcmZhbGx8ZW58MXx8fHwxNzg5ODI2NzI2fDA&ixlib=rb-4.1.0&q=80&w=1200',
+    img: imgAbbeyFalls,
     // Bottom-center — the waterfall is a strong vertical subject;
     // center-bottom keeps foreground mist clear
     textPosition: 'bottom-center' as const,
-    gradient: 'linear-gradient(to top, rgba(5,10,5,0.8) 0%, rgba(5,10,5,0.3) 38%, transparent 60%)',
+    gradient: 'linear-gradient(to top, rgba(10,16,10,0.92) 0%, rgba(10,16,10,0.42) 38%, transparent 60%)',
   },
 ]
 
@@ -304,7 +310,7 @@ export default function Explore() {
       <div
         ref={headerRef}
         style={{ backgroundColor: '#7a3e2e', minHeight: '58vh' }}
-        className="relative overflow-hidden flex items-end pt-32 pb-24 px-6 md:px-16"
+        className="relative overflow-hidden flex items-end pt-32 pb-14 px-6 md:px-16"
       >
         {/* subtle texture overlay — very faint noise on the terra block */}
         <div
@@ -382,8 +388,8 @@ export default function Explore() {
           A horizontal thread connects them, drawing left to right.
       */}
       <div
-        style={{ backgroundColor: '#1e3626' }}
-        className="px-6 md:px-16 py-12 overflow-hidden"
+        style={{ backgroundColor: '#0a160a' }}
+        className="px-6 md:px-16 py-10 overflow-hidden"
       >
         <div className="max-w-7xl mx-auto">
           {/* Heading */}
@@ -496,7 +502,7 @@ export default function Explore() {
       {/* ── INTERSTITIAL — between scenes 2 and 3 ─────────── */}
       {/* A breathing moment with the journey copy */}
       <div
-        className="px-6 md:px-16 py-20 border-t border-black/6"
+        className="px-6 md:px-16 py-12 border-t border-black/6"
         style={{ backgroundColor: '#f4ede0' }}
       >
         <div className="max-w-7xl mx-auto grid md:grid-cols-12 gap-8 items-end">
@@ -539,7 +545,7 @@ export default function Explore() {
       {/* ── CLOSING CTA ───────────────────────────────────── */}
       <section
         style={{ backgroundColor: '#2a4a32' }}
-        className="px-6 md:px-16 py-28 text-center text-white"
+        className="px-6 md:px-16 py-16 text-center text-white"
       >
         <motion.p
           className="text-xs tracking-[0.3em] uppercase opacity-40 mb-8"

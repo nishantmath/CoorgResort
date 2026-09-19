@@ -16,6 +16,11 @@ import imgRoomHillView from '../imports/IMG-20260916-WA0037.jpg'
 import imgRoomBalcony from '../imports/IMG-20260916-WA0038.jpg'
 import imgRoomGlass2 from '../imports/IMG-20260916-WA0039-1.jpg'
 
+import imgRajaSeat from '../imports/Rajaseat.png'
+import imgCariappaMuseum from '../imports/CariappaMuseum.png'
+import imgOmkareshwarTemple from '../imports/Omkareshwartemple.jpg'
+import imgAbbeyFalls from '../imports/abbefalls.png'
+
 export {
   imgHero,
   imgNature,
@@ -34,4 +39,8 @@ export {
   imgRoomHillView,
   imgRoomBalcony,
   imgRoomGlass2,
+  imgRajaSeat,
+  imgCariappaMuseum,
+  imgOmkareshwarTemple,
+  imgAbbeyFalls,
 }

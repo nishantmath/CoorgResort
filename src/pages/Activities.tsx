@@ -261,7 +261,7 @@ export default function Activities() {
           className="absolute inset-0"
           style={{
             background:
-              'linear-gradient(to bottom, rgba(10,14,10,0.6) 0%, rgba(10,14,10,0.15) 45%, rgba(10,14,10,0.75) 100%)',
+              'linear-gradient(to bottom, rgba(10,16,10,0.7) 0%, rgba(10,16,10,0.15) 45%, rgba(10,16,10,0.85) 100%)',
           }}
         />
         <div
@@ -346,8 +346,8 @@ export default function Activities() {
         height="clamp(580px, 90vh, 980px)"
         textPosition="bottom-left"
         gradient={[
-          'linear-gradient(140deg, rgba(4,10,6,0.82) 0%, rgba(4,10,6,0.36) 40%, transparent 68%)',
-          'linear-gradient(to top, rgba(4,10,6,0.6) 0%, transparent 42%)',
+          'linear-gradient(140deg, rgba(10,16,10,0.92) 0%, rgba(10,16,10,0.5) 40%, transparent 68%)',
+          'linear-gradient(to top, rgba(10,16,10,0.75) 0%, transparent 42%)',
         ]}
       />
 
@@ -366,8 +366,8 @@ export default function Activities() {
         height="clamp(540px, 85vh, 900px)"
         textPosition="bottom-right"
         gradient={[
-          'linear-gradient(to left, rgba(4,10,6,0.8) 0%, rgba(4,10,6,0.32) 46%, transparent 72%)',
-          'linear-gradient(to top, rgba(4,10,6,0.5) 0%, transparent 38%)',
+          'linear-gradient(to left, rgba(10,16,10,0.92) 0%, rgba(10,16,10,0.45) 46%, transparent 72%)',
+          'linear-gradient(to top, rgba(10,16,10,0.65) 0%, transparent 38%)',
         ]}
       />
 
@@ -388,8 +388,8 @@ export default function Activities() {
         height="clamp(620px, 95vh, 1040px)"
         textPosition="bottom-left"
         gradient={[
-          'linear-gradient(to top, rgba(4,8,4,0.88) 0%, rgba(4,8,4,0.28) 38%, transparent 62%)',
-          'linear-gradient(to right, rgba(4,8,4,0.4) 0%, transparent 52%)',
+          'linear-gradient(to top, rgba(10,16,10,0.95) 0%, rgba(10,16,10,0.4) 38%, transparent 62%)',
+          'linear-gradient(to right, rgba(10,16,10,0.55) 0%, transparent 52%)',
         ]}
       />
 
@@ -409,7 +409,7 @@ export default function Activities() {
         height="clamp(580px, 90vh, 980px)"
         textPosition="top-center"
         gradient={[
-          'linear-gradient(to bottom, rgba(4,8,6,0.82) 0%, rgba(4,8,6,0.32) 44%, transparent 68%)',
+          'linear-gradient(to bottom, rgba(10,16,10,0.92) 0%, rgba(10,16,10,0.45) 44%, transparent 68%)',
         ]}
       />
 
@@ -436,7 +436,7 @@ export default function Activities() {
       {/* ── CTA ───────────────────────────────────────────── */}
       <section
         style={{ backgroundColor: '#2a4a32' }}
-        className="px-6 md:px-16 py-24 text-white text-center"
+        className="px-6 md:px-16 py-16 text-white text-center"
       >
         <motion.p
           className="text-xs tracking-[0.3em] uppercase opacity-40 mb-6"

@@ -7,7 +7,7 @@ export default function Contact() {
     <div style={{ backgroundColor: '#f4ede0' }}>
 
       {/* Full-bleed header */}
-      <div className="relative overflow-hidden" style={{ minHeight: '50vh', backgroundColor: '#1e3626' }}>
+      <div className="relative overflow-hidden" style={{ minHeight: '50vh', backgroundColor: '#0a160a' }}>
         <img src={imgNature} alt="Estate" className="absolute inset-0 w-full h-full object-cover opacity-30" />
         <div className="relative pt-32 pb-24 px-6 md:px-16 flex flex-col justify-end" style={{ minHeight: '50vh' }}>
           <p className="text-xs tracking-[0.3em] text-white/45 uppercase mb-5">GET IN TOUCH</p>
@@ -18,7 +18,7 @@ export default function Contact() {
       </div>
 
       {/* Contact + form */}
-      <section className="px-6 md:px-16 py-24">
+      <section className="px-6 md:px-16 py-16">
         <div className="max-w-7xl mx-auto grid md:grid-cols-12 gap-16">
 
           {/* Left — details */}

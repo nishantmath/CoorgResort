@@ -255,7 +255,7 @@ export default function Home() {
             style={{
               opacity: reduce ? 1 : heroOverlayOpacity,
               backgroundImage:
-                'linear-gradient(160deg, rgba(10,22,10,0.6) 0%, rgba(10,22,10,0.05) 55%, rgba(10,22,10,0.7) 100%)',
+                'linear-gradient(160deg, rgba(10,16,10,0.75) 0%, rgba(10,16,10,0.1) 55%, rgba(10,16,10,0.85) 100%)',
             }}
           />
 
@@ -337,7 +337,7 @@ export default function Home() {
         </section>
 
         {/* ── INTRO ───────────────────────────────────────── */}
-        <section className="px-6 md:px-16 pt-28 pb-16">
+        <section className="px-6 md:px-16 pt-16 pb-12">
           <div className="max-w-7xl mx-auto">
             <div className="grid md:grid-cols-12 gap-8 items-start">
               <motion.div
@@ -426,7 +426,7 @@ export default function Home() {
         </section>
 
         {/* ── NATURE LABEL ──────────────────────────────────── */}
-        <section className="px-6 md:px-16 py-20 border-b border-gray-200">
+        <section className="px-6 md:px-16 py-14 border-b border-gray-200">
           <div className="max-w-7xl mx-auto grid md:grid-cols-12 gap-8 items-end">
             <div className="md:col-span-8">
               <h2
@@ -458,7 +458,7 @@ export default function Home() {
         </section>
 
         {/* ── SIGNATURE ACTIVITIES ─────────────────────────── */}
-        <section className="pt-24 pb-0">
+        <section className="pt-16 pb-0">
           <div className="px-6 md:px-16 mb-10">
             <div className="max-w-7xl mx-auto flex items-baseline justify-between flex-wrap gap-4">
               <div>
@@ -566,7 +566,7 @@ export default function Home() {
         </section>
 
         {/* ── ROOMS PREVIEW ─────────────────────────────────── */}
-        <section style={{ backgroundColor: '#191d17' }} className="px-6 md:px-16 py-24">
+        <section style={{ backgroundColor: '#191d17' }} className="px-6 md:px-16 py-16">
           <div className="max-w-7xl mx-auto">
             <div className="grid md:grid-cols-12 gap-12 items-start mb-14">
               <div className="md:col-span-5">
@@ -653,7 +653,7 @@ export default function Home() {
         </section>
 
         {/* ── EXPLORE TEASER ────────────────────────────────── */}
-        <section style={{ backgroundColor: '#7a3e2e' }} className="px-6 md:px-16 py-24 text-white">
+        <section style={{ backgroundColor: '#7a3e2e' }} className="px-6 md:px-16 py-16 text-white">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-end">
             <h2
               style={{
@@ -736,7 +736,7 @@ export default function Home() {
         </section>
 
         {/* ── CTA ───────────────────────────────────────────── */}
-        <section className="px-6 md:px-16 py-32" style={{ backgroundColor: '#f4ede0' }}>
+        <section className="px-6 md:px-16 py-20" style={{ backgroundColor: '#f4ede0' }}>
           <div className="max-w-7xl mx-auto grid md:grid-cols-12 items-end gap-12">
             <div className="md:col-span-8">
               <motion.p

@@ -207,7 +207,7 @@ export default function Rooms() {
       </div>
 
       {/* ── Intro text strip ──────────────────────────────── */}
-      <div className="px-6 md:px-16 py-16 border-b border-gray-200">
+      <div className="px-6 md:px-16 py-10 border-b border-gray-200">
         <div className="max-w-7xl mx-auto grid md:grid-cols-12 gap-8">
           <motion.div
             className="md:col-span-2"
@@ -236,7 +236,7 @@ export default function Rooms() {
       </div>
 
       {/* ── Room grid — editorial sizing ─────────────────── */}
-      <section className="px-6 md:px-16 py-20">
+      <section className="px-6 md:px-16 py-12">
         <div className="max-w-7xl mx-auto">
 
           {/* Row 1: large left + smaller right */}
@@ -478,7 +478,7 @@ export default function Rooms() {
       </section>
 
       {/* ── GALLERY — horizontal scroll strip ─────────────── */}
-      <section className="py-16 overflow-hidden">
+      <section className="py-10 overflow-hidden">
         {/* Section label */}
         <motion.div
           className="px-6 md:px-16 mb-8"
@@ -567,7 +567,7 @@ export default function Rooms() {
       </div>
 
       {/* ── Book CTA ──────────────────────────────────────── */}
-      <section className="px-6 md:px-16 py-28">
+      <section className="px-6 md:px-16 py-16">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-end">
           <h2
             style={{
