@@ -8,8 +8,6 @@ dist/
 .vite/
 *.local
 
-# Figma Make runtime (generated, not source)
-.figma/make/site.json
 
 # OS
 .DS_Store
